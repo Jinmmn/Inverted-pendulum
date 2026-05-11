@@ -1,0 +1,47 @@
+# Keil MDK build outputs
+Objects/
+Listings/
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.o
+*.obj
+*.d
+*.crf
+*.lnp
+*.dep
+*.htm
+*.html
+
+# Keil uVision user/workspace files
+*.uvguix.*
+*.uvgui.*
+*.uvgui
+*.uvopt
+*.uvgui_*
+*.uvguix_*
+
+# Debugger and flash tool byproducts
+JLinkLog.txt
+JLinkSettings.ini
+*.scvd
+*.dbgconf
+
+# Logs and temporary files
+build_output.log
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
