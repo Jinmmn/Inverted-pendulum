@@ -29,14 +29,14 @@ enum {
 
 static PID_t angle_pid = {
     CENTER_ANGLE, 0.0f, 0.0f,
-    0.3f, 0.01f, 0.4f,
+    0.2f, 0.01f, 0.5f,
     0.0f, 0.0f, 0.0f,
     100.0f, -100.0f
 };
 
 static PID_t location_pid = {
     0.0f, 0.0f, 0.0f,
-    0.4f, 0.0f, 4.0f,
+    0.3f, 0.0f, 3.5f,
     0.0f, 0.0f, 0.0f,
     100.0f, -100.0f
 };
